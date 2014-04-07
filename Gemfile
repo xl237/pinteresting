@@ -27,15 +27,13 @@ gem 'bootstrap-sass'
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do
-	gem 'sqlite3'
-end	
-
+     gem 'sqlite3'
+end
 
 group :production do
-	gem 'pg'
-	gem 'rails_12factor'
-end	
-
+     gem 'pg'
+     gem 'rails_12factor'
+end
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
