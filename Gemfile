@@ -30,6 +30,9 @@ gem 'paperclip', github: 'thoughtbot/paperclip'
 
 gem 'aws-sdk', '~> 1.20.0'
 
+gem 'jquery-turbolinks'
+gem 'masonry-rails', '~> 0.2.0'
+
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do
